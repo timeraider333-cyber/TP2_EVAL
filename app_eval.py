@@ -28,7 +28,7 @@ st.write("Veuillez entrer votre prénom pour personnaliser votre expérience.")
 
 nom = st.text_input("Quel est votre prénom ?")
 if nom:
-    st.success(f"Bonjour, {nom} ! Bienvenue dans cette application. 👋")
+    st.success(f"Bonjour, {nom} ! Bienvenue dans cette application. ")
 
 st.divider()
 
